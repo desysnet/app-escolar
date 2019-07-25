@@ -1,3 +1,37 @@
-<resources>
-    <string name="app_name">App-EscolarV1</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">SchoolThink</string>
+    <string name="usuario">Usuario</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="logeado">Bienvenido!!!!</string>
+    <string name="error_field_required">Este campo es requerido</string>
+    <string name="error_invalid_user_id">Usuario inválido</string>
+    <string name="error_invalid_password">Contraseña inválida</string>
+    <string name="error_network">Conexión de red no disponible</string>
+    <string name="title_activity_principal">PrincipalActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Administracion</string>
+    <string name="menu_gallery">Comunicacion</string>
+    <string name="menu_slideshow">Pagos y Cobros</string>
+    <string name="menu_tools">Estadisticas</string>
+    <string name="menu_Cones">Control Escolar</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="communicate" tools:ignore="ExtraTranslation">Communicate</string>
+    <string name="title_activity_administracion">Administracion</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="inbox">Inbox</string>
+    <string name="mensajes">Mensajes</string>
+    <string name="tareas">Tareas</string>
+    <string name="insigneas">Insigneas</string>
+    <string name="eventos">Eventos</string>
+    <string name="insignias">Insignias</string>
 </resources>

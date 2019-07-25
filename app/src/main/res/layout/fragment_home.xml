@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".Home">
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="500dp"
+        android:orientation="horizontal"
+        tools:ignore="UselessLeaf,UselessParent">
+
+
+        <View
+            android:id="@+id/carruselnotifi"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:background="@android:color/darker_gray" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="-330dp"
+            android:layout_marginTop="210dp"
+            android:background="@drawable/inbox"
+            android:text="@string/inbox"
+            android:textColor="@android:color/background_dark"
+            android:textSize="11sp"
+            tools:ignore="SmallSp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="210dp"
+            android:background="@drawable/mensajes"
+            android:text="@string/mensajes"
+            android:textColor="@android:color/background_dark"
+            android:textSize="11sp"
+            tools:ignore="SmallSp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="210dp"
+            android:background="@drawable/tareas"
+            android:text="@string/tareas"
+            android:textColor="@android:color/background_dark"
+            android:textSize="11sp"
+            tools:ignore="SmallSp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="-330dp"
+            android:layout_marginTop="360dp"
+            android:background="@drawable/insignias"
+            android:text="@string/insignias"
+            android:textColor="@android:color/background_dark"
+            android:textSize="11sp"
+            tools:ignore="SmallSp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="360dp"
+            android:background="@drawable/eventos"
+            android:text="@string/eventos"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="11sp"
+            tools:ignore="SmallSp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

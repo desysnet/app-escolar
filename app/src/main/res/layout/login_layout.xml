@@ -1,39 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/ic_launcher"
+    android:background="@drawable/pantalla_login_school"
     tools:context=".LoginActivity">
 
+    <LinearLayout
+        android:id="@+id/cajalogin"
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints,UselessParent">
 
-    <EditText
-        android:id="@+id/Lbl_UserId"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
-        android:layout_centerHorizontal="true"
-        android:ems="10"
-        android:inputType="textEmailAddress"
-        android:hint="Usuario"/>
+        <EditText
+            android:id="@+id/Lbl_UserId"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="170dp"
+            android:autofillHints=""
+            android:background="@drawable/caja_de_texto_app_school3"
+            android:ems="10"
+            android:hint="@string/usuario"
+            android:inputType="textEmailAddress"
+            android:paddingStart="90dp"
+            android:textColorHint="@android:color/background_light"
+            android:textColorLink="@android:color/background_light"
+            tools:ignore="RtlSymmetry"
+            tools:targetApi="o" />
 
-    <EditText
-        android:id="@+id/Lbl_Password"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="160dp"
-        android:ems="10"
-        android:inputType="textPassword"
-        android:hint="Password"/>
+        <EditText
+            android:id="@+id/Lbl_Password"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="100dp"
+            android:autofillHints=""
+            android:background="@drawable/caja_de_texto_app_school3"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:paddingStart="90dp"
+            android:textColorHint="@android:color/background_light"
+            android:textColorLink="@android:color/background_light"
+            tools:ignore="RtlSymmetry"
+            tools:targetApi="o" />
 
-    <Button
-        android:id="@+id/btn_Login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="250dp"
-        android:text="Login" />
+        <Button
+            android:id="@+id/btn_Login"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/botonlogin"
+            android:text="@string/login"
+            android:textSize="18sp"
+            tools:ignore="UnusedAttribute" />
+
+        <ProgressBar
+            android:id="@+id/progressBar4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminateDrawable="@drawable/pbmystyle"
+            android:max="100"
+            android:progressBackgroundTint="@android:color/holo_red_dark"
+            android:progressDrawable="@drawable/pbmystyle"
+            android:progressTint="@android:color/holo_red_dark"
+            android:visibility="invisible" />
+
+    </LinearLayout>
 
 </RelativeLayout>
